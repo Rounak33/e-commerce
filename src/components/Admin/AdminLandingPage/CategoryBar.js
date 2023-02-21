@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { categories } from "../../../constents";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import { db } from "../../../firebaseconfig";
+import { db } from "../../../fierbaseconfig";
 
 function CategoryBar() {
   const [selectedCategory, setSelectedCategory] = React.useState(null);
@@ -41,6 +41,9 @@ function CategoryBar() {
   };
   return (
     <div className="container">
+         <h1>
+        Category Bar
+      </h1>
       <div className="selected-item">
         {selectedCategory && selectedCategory.length === 0 ? (
           <div>select category</div>
