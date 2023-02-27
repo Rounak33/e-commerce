@@ -6,7 +6,7 @@ import {
     deleteDoc,
   } from "firebase/firestore";
   import React, { useEffect } from "react";
-  import { db } from "../../../fierbaseconfig";
+  import { db } from "../../../firebaseconfig";
   import CommonTable from "../../common/CommonTable";
   function AllproductsView({ setSelectedProduct, setAddProduct }) {
     const headCells = [
@@ -98,4 +98,3 @@ import {
   }
   
   export default AllproductsView;
-  

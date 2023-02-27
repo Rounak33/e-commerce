@@ -3,7 +3,7 @@ import AddCircleOutlineTwoToneIcon from "@mui/icons-material/AddCircleOutlineTwo
 import CancelTwoToneIcon from "@mui/icons-material/CancelTwoTone";
 import FileUpload from '../../common/FileUpload';
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import { db } from "../../../fierbaseconfig";
+import { db } from "../../../firebaseconfig";
 function Corousel() {
   const [corousel, setCorousel] = React.useState([]);
   const getAllcorousels = async () => {

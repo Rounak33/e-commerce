@@ -10,7 +10,7 @@ import {
   setDoc,
   where,
 } from "firebase/firestore";
-import { db } from "../../../fierbaseconfig";
+import { db } from "../../../firebaseconfig";
 import AsyncDropdown from "../../common/AsyncDropdown";
 function NewArivals() {
   const [productSearch, setProductSearch] = React.useState("");

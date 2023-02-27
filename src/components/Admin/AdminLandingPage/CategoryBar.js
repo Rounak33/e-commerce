@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { categories } from "../../../constents";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import { db } from "../../../fierbaseconfig";
+import { db } from "../../../firebaseconfig";
 
 function CategoryBar() {
   const [selectedCategory, setSelectedCategory] = React.useState(null);
